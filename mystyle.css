@@ -11,12 +11,8 @@ th, td {
   padding: 10px 30px 15px 20px;
 }
 
-tr:hover {
-  background-color: blue;
-}
-
 .rating-h1 {
-  font-size: xx-large;
+  font-size: large;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,4 +23,12 @@ tr:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+canvas {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
