@@ -145,10 +145,6 @@
         height = canvas.height = window.innerHeight
     }
 
-    window.addEventListener('resize', resize)
-    window.addEventListener('blur', pause)
-    window.addEventListener('focus', resume)
-    init()
     function sortTable(n) {
         let table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
         table = document.getElementById("myTable");
@@ -185,5 +181,10 @@
             }
         }
     }
+
+    window.addEventListener('resize', resize)
+    window.addEventListener('blur', pause)
+    window.addEventListener('focus', resume)
+    init()
 </script>
 </html>
