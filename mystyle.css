@@ -124,15 +124,3 @@ body {
   position: relative;
   z-index: 1;
 }
-
-table::before, table::after {
-  content: "🍃";
-  position: absolute;
-  font-size: 2em;
-}
-table::before {
-  top: 12px; left: 18px;
-}
-table::after {
-  bottom: 12px; right: 18px;
-}
